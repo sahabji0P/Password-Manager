@@ -1,9 +1,9 @@
 import React from "react";
 
 const Navbar = () => {
-  const handleClick=()=>{
-    window.location.href="https://github.com/Vinayak2k03"
-  }
+  const handleClick = () => {
+    window.location.href = "https://github.com/sahabji0P";
+  };
 
   return (
     <nav className="bg-gradient-to-br from-black to-gray-700">
@@ -25,7 +25,11 @@ const Navbar = () => {
           </li>
         </ul> */}
         <button onClick={handleClick}>
-          <img className="invert p-3 w-16" src="icons/github.svg" alt="github logo"/>
+          <img
+            className="invert p-3 w-16"
+            src="icons/github.svg"
+            alt="github logo"
+          />
         </button>
       </div>
     </nav>
