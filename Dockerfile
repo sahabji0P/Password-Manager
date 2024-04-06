@@ -9,5 +9,7 @@ RUN npm install
 
 COPY . .
 
+USER 10014
+
 CMD ["npm", "run", "dev"]
 
